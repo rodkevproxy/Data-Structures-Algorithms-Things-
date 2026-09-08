@@ -8,10 +8,9 @@ def main():
     stack.append("Minecraft")
     stack.append("Doom")
     stack.append("Fortnite")
-    print(stack)
+    print(stack[-1]), print(stack)
 
-    stack.pop()
-    print(stack)
+   
 
 
 if __name__ == '__main__': 
