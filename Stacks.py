@@ -3,3 +3,10 @@
 #       Push() toadd to the top 
 #       Pop() to remove from the top 
 
+class main:
+
+
+
+
+if __main__ == __name__: 
+    main()
