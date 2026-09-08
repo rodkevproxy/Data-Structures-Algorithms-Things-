@@ -3,10 +3,12 @@
 #       Push() toadd to the top 
 #       Pop() to remove from the top 
 
-class main:
+def main(): 
 
 
 
 
-if __main__ == __name__: 
+
+if __name__ == '__main__': 
     main()
+    
