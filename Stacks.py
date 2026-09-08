@@ -9,6 +9,7 @@ def main():
     stack.append("Doom")
     stack.append("Fortnite")
     print(stack[-1]), print(stack)
+    print(stack.index("Doom"))
 
    
 
