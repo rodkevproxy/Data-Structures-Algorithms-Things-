@@ -16,7 +16,12 @@ public class stacks {
         //String popGame = stack.pop();  
         System.out.println(stack.peek()); //This will return the very first object of the stack 
         System.out.println(stack.search("Doom")); //This will return the position of that object that we want to find 
-        
+
+
+        for(int i = 0; i < 1000; i++) {     //This example demostrates that Java can alro run out of memory 
+            stack.push("Fallout 76"); 
+         }
+
 
 
 
