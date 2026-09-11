@@ -13,7 +13,7 @@ public class stacks {
         System.out.println(stack);
 
         stack.pop(); //This will remove the top object, when doing this proccess, if you just want to re-assing it can be done following these steps 
-        String popGame = stack.pop(); 
+        //String popGame = stack.pop();  
         System.out.println(popGame);
 
         
