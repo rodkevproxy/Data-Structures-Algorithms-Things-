@@ -19,7 +19,13 @@ public class queues {
         queue.poll(); 
         System.out.println(queue);
         
-        /.
+        //USeful methods that can be used with queues 
+        System.out.println(queue.isEmpty()); //Checks if the queue is empty 
+        System.out.println(queue.size()); //Check the size of the queue 
+        System.out.println(queue.contains("Harold")); // Check if the queue contain a certain object
+        
+
+
         
 
 
