@@ -7,12 +7,13 @@ public class priorityQueues {
          //                with the highest priorities first 
          //                  before elements with lower priority
 
-         Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder()); // Using this class will return an ordered elements in ascending order 
+         Queue<String> queue = new PriorityQueue<>(Collections.reverseOrder()); // Using this class will return an ordered elements in ascending order 
                                                       // Using the Collection method will allow us to reverse the output 
-         queue.offer(3.3);
-         queue.offer(2.3);
-         queue.offer(3.9);
-         queue.offer(3.0);
+                                                      // As shown above this also works with strings sroting 
+         queue.offer("B");
+         queue.offer("A");
+         queue.offer("D");
+         queue.offer("B");
 
          while(!queue.isEmpty()){ 
             System.out.println(queue.poll());
