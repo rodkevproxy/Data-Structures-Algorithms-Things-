@@ -7,8 +7,8 @@ public class priorityQueues {
          //                with the highest priorities first 
          //                  before elements with lower priority
 
-         Queue<Double> queue = new LinkedList<>();
-         
+         Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder()); // Using this class will return an ordered elements in ascending order 
+                                                      // Using the Collection method will allow us to reverse the output 
          queue.offer(3.3);
          queue.offer(2.3);
          queue.offer(3.9);
@@ -16,7 +16,7 @@ public class priorityQueues {
 
          while(!queue.isEmpty()){ 
             System.out.println(queue.poll());
-            
+
          }
     }
     
