@@ -7,6 +7,14 @@ public class priorityQueues {
          //                with the highest priorities first 
          //                  before elements with lower priority
 
+         Queue<Double> queue = new LinkedList<>();
+         
+         queue.offer(3.3);
+         queue.offer(2.3);
+         queue.offer(3.9);
+         queue.offer(3.0);
+
+
     }
     
 }
