@@ -14,7 +14,10 @@ public class priorityQueues {
          queue.offer(3.9);
          queue.offer(3.0);
 
-
+         while(!queue.isEmpty()){ 
+            System.out.println(queue.poll());
+            
+         }
     }
     
 }
