@@ -20,11 +20,16 @@ class linkedLists{
                     linkedList.offer("C");
                     linkedList.offer("D");
                     linkedList.offer("E"); //Offer can also be use to push new material into the linkedList 
-                    
+
                     
                     System.out.println(linkedList);
-                    linkedList.pop(); 
-                    System.out.println(linkedList);
+
+
+                    //To add we can use .add(index, "")
+                    linkedList.add(3, "B");
+                    //To remove we can use .pop() and remover("")
+                    linkedList.remove("E");
+                    
 
 
 
