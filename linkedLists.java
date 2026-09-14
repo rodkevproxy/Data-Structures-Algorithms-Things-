@@ -27,9 +27,15 @@ class linkedLists{
 
                     //To add we can use .add(index, "")
                     linkedList.add(3, "B");
+
                     //To remove we can use .pop() and remover("")
                     linkedList.remove("E");
+
+                    //To return de index of an object that we are looking for we can use, this returns -1 when no index is found
+                    System.out.println(linkedList.indexOf("F")); 
                     
+
+
 
 
 
