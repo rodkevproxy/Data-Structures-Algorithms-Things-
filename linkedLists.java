@@ -14,8 +14,11 @@ class linkedLists{
                     linkedList.push("E");
                     
                     System.out.println(linkedList);
+                    linkedList.pop(); 
+                    System.out.println(linkedList);
 
-                    
+
+
                 
 
 
