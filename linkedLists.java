@@ -2,7 +2,8 @@
 
 class linkedLists{ 
         public static void main(String[] args) {
-                    //Explanation should be done within 2 hours 
-                         
+                    //Linked list, singly 
+                    //It has a node to the next element 
+
         }
 }
