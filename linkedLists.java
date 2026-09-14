@@ -7,11 +7,20 @@ class linkedLists{
                     //LinkedList are bad at searching 
 
                     LinkedList<String> linkedList = new LinkedList<>(); 
+                    /*
                     linkedList.push("A");
                     linkedList.push("B");
                     linkedList.push("C");
                     linkedList.push("D");
                     linkedList.push("E");
+                     */
+
+                    linkedList.offer("A");
+                    linkedList.offer("B");
+                    linkedList.offer("C");
+                    linkedList.offer("D");
+                    linkedList.offer("E"); //Offer can also be use to push new material into the linkedList 
+                    
                     
                     System.out.println(linkedList);
                     linkedList.pop(); 
