@@ -35,13 +35,22 @@ class linkedLists{
                     System.out.println(linkedList.indexOf("F")); 
 
                     //Some more useful ones, these two add First and Last
-                    linkedList.addFirst("0");
-                    linkedList.addLast("9");
+                    linkedList.addFirst("0"); //Add a head
+                    linkedList.addLast("9"); // Add a tail
 
                     //These two can print First and Last 
-
                     System.out.println(linkedList.peekFirst());
                     System.out.println(linkedList.peekLast());
+
+                    //We can also remov the tail and head of a linkedList using a variable 
+                    String first = linkedList.removeFirst();
+                    String last = linkedList.removeLast();
+
+                        
+
+
+
+
                     
 
                         
