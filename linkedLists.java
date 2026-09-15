@@ -1,11 +1,19 @@
+   //Linked list, singly and doubly (This one stores two addresses)
+                    //It has a node to the next element, each node has a address. 
+                    //LinkedList are bad at searching 
+                    //Nodes are in non-consecutive memory locations 
+                    //Elements are linked using pointers 
+
+
+
+
+
+
 import java.util.LinkedList;
 
 class linkedLists{ 
         public static void main(String[] args) {
-                    //Linked list, singly and doubly (This one stores two addresses)
-                    //It has a node to the next element, each node has a address. 
-                    //LinkedList are bad at searching 
-
+                 
                     LinkedList<String> linkedList = new LinkedList<>(); 
                     /*
                     linkedList.push("A");
@@ -46,7 +54,7 @@ class linkedLists{
                     String first = linkedList.removeFirst();
                     String last = linkedList.removeLast();
 
-                        
+
 
 
 
