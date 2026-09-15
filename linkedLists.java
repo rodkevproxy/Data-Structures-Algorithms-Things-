@@ -33,10 +33,18 @@ class linkedLists{
 
                     //To return de index of an object that we are looking for we can use, this returns -1 when no index is found
                     System.out.println(linkedList.indexOf("F")); 
+
+                    //Some more useful ones, these two add First and Last
+                    linkedList.addFirst("0");
+                    linkedList.addLast("9");
+
+                    //These two can print First and Last 
+
+                    System.out.println(linkedList.peekFirst());
+                    System.out.println(linkedList.peekLast());
                     
 
-
-
+                        
 
 
                 
