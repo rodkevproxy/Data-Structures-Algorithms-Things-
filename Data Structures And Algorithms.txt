@@ -50,7 +50,19 @@ HASH MAPS
 -Store information in a smart way 
 
 No Hashmap = 0(n)
-Hashmap o(1)
+Hashmap = o(1)
+
+REAL PROBLEMS USING HASHMAPS (TWO SUM)
+
+-Hash maps are good for this type of questions where we are getting asked, have we seen this value that complements the pattern 
+
+num_to_index = {}
+
+for i, num in enumerate(arr): 
+
+
+
+
 
 
 
