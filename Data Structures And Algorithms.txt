@@ -47,6 +47,12 @@ HASH MAPS
 	-Lists (Are not)
 	-Dictionaries(Are not)
 -Hashmap is the go to when the brute force solution is too slow 
+-Store information in a smart way 
+
+No Hashmap = 0(n)
+Hashmap o(1)
+
+
 
 
 
