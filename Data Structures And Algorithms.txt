@@ -1,0 +1,59 @@
+Data structures and algorithms 
+
+STRINGS
+
+Strings are very similar to arrays. 
+Questions where i have to build a result string have better ways to solve it. 
+	Brute force solution: 
+	result = ""
+	for char in chars: 
+		result += chars				#This is an o(n^2)solution 
+
+	Better way to solve this 
+	result = []
+	for char in chars: 
+		result.append(char)
+	return "".join(result) 	       #This is an o(n) solution
+
+	Questions like Find substrings, anagrams and return substrings that match a pattern (These question are hidding a patern, therefore are not a brute force solution type of question)
+
+SETS
+
+Collection of unique values, no duplicates 
+Use sets when i care about uniquenessm existence, fast membership checks, sliding window 
+
+
+CONTROL FLOW AND LOOPING 
+
+-Being able to use a loop, conditons and variable updates 
+
+
+BIG O NOTATION
+
+Most common ones 
+0(1) Fastest one, accessing index 
+0(log n) Binary search 
+0(n) Going thought each item 
+0(n lod n) Related to sorting and default methods in programming languages  
+0(n^2) nested loops and brute force comparasions 
+
+HASH MAPS 
+
+-A hash function is a formula that can be applied to many interview questions 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
