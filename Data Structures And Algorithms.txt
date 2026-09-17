@@ -46,6 +46,8 @@ HASH MAPS
     -Tuples 
 	-Lists (Are not)
 	-Dictionaries(Are not)
+-Hashmap is the go to when the brute force solution is too slow 
+
 
 
     
