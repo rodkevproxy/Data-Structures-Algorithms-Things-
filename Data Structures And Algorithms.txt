@@ -40,6 +40,11 @@ Most common ones
 HASH MAPS 
 
 -A hash function is a formula that can be applied to many interview questions 
+-Things that are hashable 
+    -Numbers 
+    -Strings 
+    -Tuples 
+    
 
 
 
