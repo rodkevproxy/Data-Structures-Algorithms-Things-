@@ -44,6 +44,10 @@ HASH MAPS
     -Numbers 
     -Strings 
     -Tuples 
+	-Lists (Are not)
+	-Dictionaries(Are not)
+
+
     
 
 
