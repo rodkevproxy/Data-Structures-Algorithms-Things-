@@ -63,6 +63,16 @@ for i, num in enumerate(arr):
 	if complement in num_to_index:
 		return [num_to_index[complement], i]
 	num_to_index[num] = i 
+return []
+
+TWO POINTER PROBLEMS
+
+	Moves same direction: 
+	You need to track a range 
+
+
+
+
 
 
 
