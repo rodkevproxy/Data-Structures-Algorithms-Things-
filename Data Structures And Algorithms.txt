@@ -107,6 +107,8 @@ return slow.val
 -It works for both (even and odd ranges)
 
 
+SLIDING WINDOW
+
 
 
 
