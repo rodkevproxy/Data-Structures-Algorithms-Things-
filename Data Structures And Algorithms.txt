@@ -104,6 +104,9 @@ while fast and fast.next:
 return slow.val 
 
 -This is a solution implementing two pointer, when the fast pointer reaches the end, the slow one will be seating down right exact in the middle 
+-It works for both (even and odd ranges)
+
+
 
 
 
