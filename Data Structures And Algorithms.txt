@@ -65,7 +65,7 @@ for i, num in enumerate(arr):
 	num_to_index[num] = i 
 return []
 
-TWO POINTER PROBLEMS
+TWO POINTER 
 
 -Moves same direction: 
 	Single pass over the data, you need to track a range. 
@@ -79,7 +79,35 @@ TWO POINTER PROBLEMS
 	Reversals 
 	Merging sorted data 
 	"K" sized comparasions
-	 
+	
+REAL PROBLEMS USING TWO POINTERS 
+
+l, r = 0, len(s) -1 
+
+while l < r: 
+	while l < r and not s[l].isalnum: 
+		l += 1 
+	while r > l and not s[r].isalnum: 
+		r -=1 
+	if s[l].lower() != s[r].lower(): 
+		return False 
+	l += 1 
+	r -= 1 
+return True 
+
+ANOTHER COMMON PROBLEM, MIDDLE OF A LINKED LIST  
+
+slow = fast = head 
+while fast and fast.next: 
+	fast.next.next 
+	slow.next 
+return slow.val 
+
+
+
+
+
+
 
 
 
