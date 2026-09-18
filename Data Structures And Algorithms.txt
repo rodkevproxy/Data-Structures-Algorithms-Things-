@@ -103,6 +103,9 @@ while fast and fast.next:
 	slow.next 
 return slow.val 
 
+-This is a solution implementing two pointer 
+
+
 
 
 
