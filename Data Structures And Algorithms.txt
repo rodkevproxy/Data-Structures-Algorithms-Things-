@@ -108,8 +108,9 @@ return slow.val
 
 
 SLIDING WINDOW
--Thsi works for looking at subg-sets of data
--
+-This works for looking at subg-sets of data
+-Is an extension of the two pointer method 
+
 
 
 
