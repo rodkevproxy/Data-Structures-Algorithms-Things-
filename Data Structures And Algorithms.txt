@@ -138,9 +138,20 @@ def sliding_window_dynamic(input):
 		ans = max(ans, window)
 	return ans 
 
-FIXED WINDOW INTERVIEW QUESTION 
+FIXED WINDOW INTERVIEW QUESTION - MAXIMUN LENGHT OF SUBARRAY K 
 
-	
+def subarray_sum_fixed(nums: list[int], k: int) -> int: 
+	window_sum = 0 
+	for i in range(k): 
+		window_sum =+ nums[i]
+		left = right - k 
+		window_sum -= nums[left]
+		window_sum += nums[right]
+		largest = max(largest, window_sum)
+	return largest 
+
+
+
 
 
 
