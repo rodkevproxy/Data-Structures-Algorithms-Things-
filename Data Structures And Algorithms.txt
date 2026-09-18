@@ -108,6 +108,8 @@ return slow.val
 
 
 SLIDING WINDOW
+-Thsi works for looking at subg-sets of data
+-
 
 
 
