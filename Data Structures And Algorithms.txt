@@ -110,6 +110,10 @@ return slow.val
 SLIDING WINDOW
 -This works for looking at subg-sets of data
 -Is an extension of the two pointer method 
+-(Two type of sliding window)
+	First: We have the fixed sliding window that only goes throught a fixed range 
+	Seocnd: We have the dynamic window, this one can expand and modify its size when required 
+
 
 
 
