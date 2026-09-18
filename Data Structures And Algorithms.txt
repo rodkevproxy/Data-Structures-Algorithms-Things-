@@ -67,8 +67,20 @@ return []
 
 TWO POINTER PROBLEMS
 
-	Moves same direction: 
-	You need to track a range 
+-Moves same direction: 
+	Single pass over the data, you need to track a range. 
+
+-Moves towards each other 
+	Find a pair or combination 
+	Checking for palindromes 
+
+-Very common on problems like: 
+	Palindromes 
+	Reversals 
+	Merging sorted data 
+	"K" sized comparasions
+	 
+
 
 
 
