@@ -138,7 +138,9 @@ def sliding_window_dynamic(input):
 		ans = max(ans, window)
 	return ans 
 
+FIXED WINDOW INTERVIEW QUESTION 
 
+	
 
 
 
