@@ -114,6 +114,17 @@ SLIDING WINDOW
 	First: We have the fixed sliding window that only goes throught a fixed range 
 	Seocnd: We have the dynamic window, this one can expand and modify its size when required 
 
+FIXED WINDOW CODE EXAMPLE 
+
+def sliding_window_fixed (input, window_size): 
+	ans = window = input[0:window_size]
+	for right in range (window_size, len(input)):
+		left = right - window_size
+		remove input[left] from window 
+		append input[right] to window 
+		and = optimal(ans, window)
+	return ans 
+
 
 
 
