@@ -1,6 +1,6 @@
-k = 3 
-for right in range (k): 
-    print(right)
+sub_string = ""
+
+
 
 
 

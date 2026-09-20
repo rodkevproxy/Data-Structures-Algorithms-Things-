@@ -131,14 +131,14 @@ def sliding_window_dynamic(input):
 	initialize window, ans
 	left = 0 
 	for right in range(len(input)):
-		append input[rght] to window 
+		append input[right] to window 
 		while invalid(window): 
 			remove input[left] from window
 			left += 1 
 		ans = max(ans, window)
 	return ans 
 
-FIXED WINDOW INTERVIEW QUESTION - MAXIMUN LENGHT OF SUBARRAY K 
+FIXED SLIDING WINDOW INTERVIEW QUESTION - MAXIMUN LENGHT OF SUBARRAY K 
 
 def subarray_sum_fixed(nums: list[int], k: int) -> int: 
 window_total = 0 
@@ -151,7 +151,19 @@ window_total = 0
 		window_total += nums[i]
 		largest = max(largest, window_sum)
 	return largest 
+
+
+DYNAMIC SLIDING WINDOW INTERVIEW QUESTION - MAXIMUN LENGHT OF A SUBSTRING WITH REPEATING A STRING 
+
+from collection import defaultdict 
+longest = 0 
+l = 0 
+counter: dict[str, int] = defaultdict(int) #This dictionary will keep track of many times each char appears in the current window, defaultdict makes that every char starts with a count of 0 
+for r in range(len(S)):
 	
+
+
+
 
 
 
