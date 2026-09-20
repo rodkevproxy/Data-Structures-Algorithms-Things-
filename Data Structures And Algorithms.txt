@@ -167,6 +167,9 @@ for r in range(len(S)):
 	longest = max(longest, r - l + 1)
 return longest
 
+BINARY SEARCH 
+
+
 
 
 
