@@ -165,6 +165,7 @@ for r in range(len(S)):
 		counter[l[s]] -= 1 
 		l += 1 
 	longest = max(longest, r - l + 1)
+return longest
 
 
 
