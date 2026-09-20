@@ -167,7 +167,9 @@ for r in range(len(S)):
 	longest = max(longest, r - l + 1)
 return longest
 
-BINARY SEARCH 
+BINARY SEARCH O(log n)
+
+-Cut the problem in half at every step,      
 
 
 
