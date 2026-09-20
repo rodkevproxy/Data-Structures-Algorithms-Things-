@@ -160,7 +160,13 @@ longest = 0
 l = 0 
 counter: dict[str, int] = defaultdict(int) #This dictionary will keep track of many times each char appears in the current window, defaultdict makes that every char starts with a count of 0 
 for r in range(len(S)):
-	
+	counter[s[r]] += 1 
+	while counter[s[r]] > 1: 
+		counter[l[s]] -= 1 
+		l += 1 
+	longest = max(longest, r - l + 1)
+
+
 
 
 
