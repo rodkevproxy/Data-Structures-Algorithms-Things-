@@ -3,6 +3,7 @@ DYNAMIC ARRAYS
 - We have a pointer telling us the length of the array.
 - We can push and pop values, we push and pop from the end on a dynamic array. 
 - When our array is full, we allocate a new array, so we have a new array of new size.
+AMORTIZED COMPLEXITY
 
 
 
