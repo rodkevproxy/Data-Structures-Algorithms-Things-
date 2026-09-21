@@ -6,6 +6,7 @@ DYNAMIC ARRAYS
 AMORTIZED COMPLEXITY
 - Each time we need more space on a dynamic array we end up doubling the space. 
 - We dont really care about constants when talking about time complexity, e.g (2 x n) can be simplified to O(n)
+- The i-th element refers to an element store on a sequence e.g an array or a dataset 
 
  
 
