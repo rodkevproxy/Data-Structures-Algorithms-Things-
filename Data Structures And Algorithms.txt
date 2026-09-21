@@ -8,6 +8,27 @@ AMORTIZED COMPLEXITY
 - We dont really care about constants when talking about time complexity, e.g (2 x n) can be simplified to O(n)
 - The i-th element refers to an element store on a sequence e.g an array or a dataset 
 
+CONCATENATION OF AN ARRAY 
+
+- This is basically adding the array to itself
+	ONE ITERATION SOLUTION 
+	 n = len(nums)
+        ans = [0] * (2 * n)
+        for i, num in enumerate(nums): 
+            ans[i] = ans[i + n] = num 
+        return ans
+
+	TWO ITERATIONS SOLUTION
+	 ans = []
+        for i in range(2): 
+            for num in nums: 
+                ans.append(num)
+        return ans 
+
+
+
+
+
  
 
 
