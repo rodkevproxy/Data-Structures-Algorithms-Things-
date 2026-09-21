@@ -4,6 +4,9 @@ DYNAMIC ARRAYS
 - We can push and pop values, we push and pop from the end on a dynamic array. 
 - When our array is full, we allocate a new array, so we have a new array of new size.
 AMORTIZED COMPLEXITY
+- Each time we need more space on a dynamic array we end up doubling the space. 
+
+ 
 
 
 
