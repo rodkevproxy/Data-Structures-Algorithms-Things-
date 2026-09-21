@@ -1,3 +1,6 @@
+DYNAMIC ARRAYS
+- When using static arrays i had to specify the size 
+
 
 
 
