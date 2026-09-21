@@ -1,5 +1,7 @@
 DYNAMIC ARRAYS
-- When using static arrays i had to specify the size 
+- When using static arrays i had to specify the size.
+- We have a pointer telling us the length of the array.
+- We can push and pop values, we push and pop from the end on a dynamic array
 
 
 
