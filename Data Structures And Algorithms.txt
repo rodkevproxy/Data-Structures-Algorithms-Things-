@@ -5,7 +5,7 @@ DYNAMIC ARRAYS
 - When our array is full, we allocate a new array, so we have a new array of new size.
 AMORTIZED COMPLEXITY
 - Each time we need more space on a dynamic array we end up doubling the space. 
-- We dont really care about constants when talking about time complexity, e.g )(2 x n) can be simplified to O(b)
+- We dont really care about constants when talking about time complexity, e.g (2 x n) can be simplified to O(n)
 
  
 
