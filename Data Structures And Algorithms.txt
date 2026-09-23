@@ -34,7 +34,9 @@ REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE
 2 and so on. 
 
 
-#Intial max can be set to -1, bwcuase that is the max value 
+#Intial max can be set to -1, becuase that is the max value
+
+STACKS
 
 
 
