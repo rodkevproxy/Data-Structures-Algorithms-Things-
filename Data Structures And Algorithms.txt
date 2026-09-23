@@ -25,6 +25,19 @@ CONCATENATION OF AN ARRAY
                 ans.append(num)
         return ans 
 
+DYNAMIC ARRAY 
+
+REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE 
+
+- Imagine there is a -1 (last element has to be a -1)
+- Compute the values in reversed order, becuase to get the new value at position 1 we need to know the value at position
+2 and so on. 
+
+
+#Intial max can be set to -1, bwcuase that is the max value 
+
+
+
 
 
 
