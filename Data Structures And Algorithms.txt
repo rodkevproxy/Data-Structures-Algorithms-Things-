@@ -43,7 +43,9 @@ STACKS
     - Pop will remove the last element of the stack 
     - Peek/top will show the last element without deleting it 
         All this operations are excecuted in constant time operation 
-        
+    - Stacks are dynamic arrays 
+    
+
 
 
 
