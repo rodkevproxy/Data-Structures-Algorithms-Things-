@@ -43,8 +43,11 @@ STACKS
     - Pop will remove the last element of the stack 
     - Peek/top will show the last element without deleting it 
         All this operations are excecuted in constant time operation 
-    - Stacks are dynamic arrays 
-    
+    - Stacks are dynamic arrays, stacks are just one commnon usage of arrays
+    - The last element added to an stack is going to be the first one removed (LI-FO) data structure
+     
+
+
 
 
 
