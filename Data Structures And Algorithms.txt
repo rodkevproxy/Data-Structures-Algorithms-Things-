@@ -42,6 +42,8 @@ STACKS
     - Push will add an element to last position of the stack 
     - Pop will remove the last element of the stack 
     - Peek/top will show the last element without deleting it 
+        All this operations are excecuted in constant time operation 
+        
 
 
 
