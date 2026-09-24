@@ -38,6 +38,11 @@ REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE
 
 STACKS
 
+- Four main operations 
+    - Push will add an element to last position of the stack 
+
+
+
 
 
 
