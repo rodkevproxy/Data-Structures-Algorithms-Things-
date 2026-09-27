@@ -51,7 +51,11 @@ SINGLY LINKED LIST
     - They are made on nodes (an object that contains the value of the list node, and a pointer pointing at the next list node)
     - Pointing to null means pointing to nothing.
     - Two types on lists, singly and doubly linked list 
-    - 
+
+    DESIGN A SINGLY LINKED LIST 
+
+    - Best way to learn this is by followinmg the video and then the submission 
+    
 
 
      
