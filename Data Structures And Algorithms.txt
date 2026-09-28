@@ -34,7 +34,34 @@ REPLACE ELEMENTS WITH GREATEST ELEMENT ON RIGHT SIDE
     2 and so on. 
 
 DESIGN A DYNAMIC ARRAY 
-    -
+    class DynamicArray:
+    
+    def __init__(self, capacity: int):
+        self.capacity = capacity # Variable for the capacity since the array is dynamic and is going to be changing 
+        self.size = 0 
+        self.arr = [0] * 4 #This is how we initialize the capacity of the array
+
+
+    def get(self, i: int) -> int:
+
+
+    def set(self, i: int, n: int) -> None:
+
+
+    def pushback(self, n: int) -> None:
+
+
+    def popback(self) -> int:
+ 
+
+    def resize(self) -> None:
+
+
+    def getSize(self) -> int:
+        
+    
+    def getCapacity(self) -> int:
+
 
 
 #Intial max can be set to -1, becuase that is the max value
