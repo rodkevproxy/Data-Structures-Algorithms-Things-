@@ -15,9 +15,9 @@ class LinkedList:
         self.tail = self.head #This makes sure that the list is not empty
 
     def get(self, index: int) -> int: 
-        curr = self.head
+        curr = self.head.next
         i = 0 
-        
+
 
 
         
