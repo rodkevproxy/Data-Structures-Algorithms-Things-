@@ -49,7 +49,8 @@ SINGLY LINKED LIST
 
     DESIGN A SINGLY LINKED LIST 
 
-    - Best way to learn this is by followinmg the video and then the submission 
+    - Best way to learn this is by following the video and then the submission
+    
     
 
 
