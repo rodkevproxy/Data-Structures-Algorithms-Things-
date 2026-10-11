@@ -16,7 +16,6 @@ class LinkedList:
 
     def get(self, index: int) -> int: 
         curr = self.head.next #This is is pointing to gead.next because of the dummy node 
-        
         i = 0 
 
 
