@@ -15,7 +15,8 @@ class LinkedList:
         self.tail = self.head #This makes sure that the list is not empty
 
     def get(self, index: int) -> int: 
-        curr = self.head.next
+        curr = self.head.next #This is is pointing to gead.next because of the dummy node 
+        
         i = 0 
 
 
