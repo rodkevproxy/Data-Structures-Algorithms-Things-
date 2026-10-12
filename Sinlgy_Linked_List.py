@@ -17,6 +17,30 @@ class LinkedList:
     def get(self, index: int) -> int: 
         curr = self.head.next #This is is pointing to gead.next because of the dummy node 
         i = 0 
+        while curr: 
+            if i == index: 
+                return curr.val 
+            i += 1 
+            curr = curr.next 
+        return -1 # this handles the out of bounds case
+
+    def insertHead(self, val: int) -> None:
+
+        #Continue here 
+        
+        
+
+    def insertTail(self, val: int) -> None:
+     
+
+    def remove(self, index: int) -> bool:
+
+  
+    def getValues(self) -> List[int]:
+ 
+
+
+
 
 
 
