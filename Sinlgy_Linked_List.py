@@ -49,7 +49,8 @@ class LinkedList:
             #Move curr to node before target node 
             i += 1 
             curr = curr.next
-
+            
+        #Remove the node ahead of curr
         if curr and curr.next: 
             if curr.next == self.tail:
                 self.tail = curr #This avoids us to delete the last node on the list 
