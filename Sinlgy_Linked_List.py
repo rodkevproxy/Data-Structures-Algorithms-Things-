@@ -33,13 +33,34 @@ class LinkedList:
         if not new_node.next:
             self.tail = new_node
         
-        
-        
-
+    
     def insertTail(self, val: int) -> None:
-     
+        #If the list is emptymeaning that the tail points to the dummy node 
+        self.tail.next = ListNode(val)
+        self.tail = self.tail.next 
+
 
     def remove(self, index: int) -> bool:
+        i = 0 
+        curr = self.head 
+        while i < index and curr: 
+            #Move curr to node before target node 
+            i += 1 
+            curr = curr.next
 
-  
+        if curr and curr.next: 
+            if curr.next == self.tail 
+                self.tail = curr #This avoids us to delete the last node on the list 
+            curr.next = curr.next.next 
+            return True 
+        return False 
+
+
+
     def getValues(self) -> List[int]:
+        curr = self.head.next 
+        res = []
+        while curr: 
+            res.append (curr.val)
+            curr = curr.next 
+        return res
