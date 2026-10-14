@@ -15,7 +15,7 @@ class LinkedList:
         self.tail = self.head #This makes sure that the list is not empty
 
     def get(self, index: int) -> int: 
-        curr = self.head.next #This is is pointing to gead.next because of the dummy node 
+        curr = self.head.next #This is is pointing to head.next because of the dummy node 
         i = 0 
         while curr: 
             if i == index: 
@@ -25,8 +25,14 @@ class LinkedList:
         return -1 # this handles the out of bounds case
 
     def insertHead(self, val: int) -> None:
+        new_node = ListNode(val) #Take the given value and convert it into a new node 
+        new_node.next = self.head.next 
+        self.head.next = new_node 
 
-        #Continue here 
+        #If list was empty
+        if not new_node.next:
+            self.tail = new_node
+        
         
         
 
@@ -37,15 +43,3 @@ class LinkedList:
 
   
     def getValues(self) -> List[int]:
- 
-
-
-
-
-
-
-        
-        
-
-
-        
