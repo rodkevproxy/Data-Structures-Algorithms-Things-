@@ -14,6 +14,7 @@ class LinkedList:
         self.head = ListNode [-1] #This index does not really matter at this point 
         self.tail = self.head #This makes sure that the list is not empty
 
+
     def get(self, index: int) -> int: 
         curr = self.head.next #This is is pointing to head.next because of the dummy node 
         i = 0 
@@ -23,6 +24,7 @@ class LinkedList:
             i += 1 
             curr = curr.next 
         return -1 # this handles the out of bounds case
+
 
     def insertHead(self, val: int) -> None:
         new_node = ListNode(val) #Take the given value and convert it into a new node 
@@ -49,12 +51,11 @@ class LinkedList:
             curr = curr.next
 
         if curr and curr.next: 
-            if curr.next == self.tail 
+            if curr.next == self.tail:
                 self.tail = curr #This avoids us to delete the last node on the list 
             curr.next = curr.next.next 
             return True 
         return False 
-
 
 
     def getValues(self) -> List[int]:
