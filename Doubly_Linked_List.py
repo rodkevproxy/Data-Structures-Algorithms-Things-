@@ -24,7 +24,14 @@ class Node:
         self.prev = null
 
 def append(self, value: int) -> None: 
-    new_node = Node(Value)
+    new_node = Node(value)
     last_node = self.tail.prev #The tail is not the last node 
 
-    last
+    last_node.next = new_node
+    new_node.prev = last_node  
+    new_node.next = self.tail 
+    self.tail.prev = new_node 
+
+
+
+    
