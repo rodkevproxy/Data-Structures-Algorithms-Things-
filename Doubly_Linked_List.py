@@ -35,7 +35,22 @@ def append(self, value: int) -> None:
 def pop(self) -> int: #Now i have to handle the case where i have to delete from the end
     if self.isEmpty(): 
         return -1 
+
+    target_node = self.tail.prev 
+    value = target_node.value
+    prev_node = target_node.prev
+
+    prev_node.next = self.tail 
+    self.tail.prev = prev_node 
+
+    return value 
+
+def popleft(self) -> int: 
+    if self.isEmpty(): 
+        return -1 
+
     
+
 
 
 
