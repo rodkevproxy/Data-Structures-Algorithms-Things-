@@ -49,6 +49,13 @@ def popleft(self) -> int:
     if self.isEmpty(): 
         return -1 
 
+    first_node = self.head.next 
+    value = first_node.value 
+    next_node = first_node.next 
+
+    self.head.next = next_node 
+    next_node.prev = self.head 
+
     
 
 
