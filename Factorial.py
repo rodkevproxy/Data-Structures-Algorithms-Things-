@@ -4,7 +4,7 @@
 # 5! is the same as 5! = 5 x 4!
 # Recursion is all about sub problems 
 
-int factorial (int n) {
+def factorial (int n) {
     if n <= 1 { 
         return 1
     }
