@@ -11,3 +11,5 @@ def factorial (int n) {
 
     return n * factorial(n - 1)
 }
+
+#Reverse a linked list USING FACTORIAL 
