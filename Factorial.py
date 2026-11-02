@@ -14,6 +14,20 @@ def factorial (int n) {
 
 #Reverse a linked list USING FACTORIAL 
 
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head.next: 
+            return None 
+
+        newHead = head
+        if head.next: 
+            newHead = self.reverseList(head.next) #This reachs the base case 
+            head.next.next = head
+        head.next = None 
+        return newHead 
+
+#Thinka about this as unpause in reverse
+
 
 
     
