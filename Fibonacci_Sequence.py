@@ -4,4 +4,4 @@ def fibonacci(n):
         return n 
 
 # Recursive case: fib(n) = fib(n - 1) + fib(n - 2)
-return fibonacci (n - 1) + fibonacci (n - 2) #Base case 
+return fibonacci (n - 1) + fibonacci (n - 2) # Base case 
