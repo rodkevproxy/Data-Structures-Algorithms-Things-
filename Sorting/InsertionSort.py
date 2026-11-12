@@ -11,6 +11,9 @@ for i in arr:
         arr[j + 1] = arr[j]
         arr[j] = tmp 
     j -= 1 
+    # Stable vs unstable 
+
+    
 
     
         
