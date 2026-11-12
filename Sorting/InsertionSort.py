@@ -13,7 +13,27 @@ for i in arr:
     j -= 1 
     # Stable vs unstable 
 
-    
+# NeetCode problem, insertion sort using key word lists 
+
+class Soution:
+    def insertionSort(self, pairs: List[Pair]) -> List[List[Pair]]:
+        n = len(pairs)
+        res = [] #This stores the intermidiate states 
+        for i in range(n): 
+            j = i - 1 #This is the pointer to the left of i which we use to campare 
+            while j >= 0 and pairs[j].key > pairs[j + 1].key:
+                pairs[j], pairs[j + 1] = pairs[j + 1], pairs[j] #This is how i can swap values in python 
+                j -= 1
+                res.append(pairs[:]) #This is how i can clone lists in python  
+        return res
+
+
+
+
+
+
+
+
 
     
         
